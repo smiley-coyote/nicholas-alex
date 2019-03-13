@@ -197,11 +197,11 @@ header nav li {
 }
 
 .work .grid li.small {
-	flex-basis: 30%;
+	flex-basis: 33%;
 }
 
 .work .grid li.large {
-	flex-basis: 70%;
+	flex-basis: 50%;
 }
 
 @media (max-width: 1100px) {
@@ -323,3 +323,16 @@ footer p {
 		margin: 0 8px;
 	}
 } 
+
+/* Under Construciton Page */
+
+.under-construction i {
+	margin-top: 100px;
+	font-size: 50px;
+}
+
+@media (max-width: 800px) {
+	.under-construction h1 {
+		font-size: 15px;
+	}
+}
