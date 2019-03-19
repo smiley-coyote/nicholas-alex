@@ -26,10 +26,28 @@
   </header>
 
   <section class="about-me">
-    <div class="profile-picture" style="background-image: url(assets/images/portrait.jpg);"></div>
     <div class="about-me-content-area">
-      <h1>About me page</h1>
+     <img src="assets/images/portrait.jpg">
+     <p>As a native of a small coastal town in Florida, 
+       I knew from an early age I had a knack for creativity 
+       that would carry into adulthood. After earning a degree 
+       in Film with a minor in Digital Media from the University 
+       of Central Florida, I held various jobs unrelated to film 
+       that failed to fulfill my creativity. This boredom led me 
+       to teach myself HTML, CSS, and JavaScript at home. I quickly 
+       decided to switch my focus to Web Development after realizing 
+       how much I enjoyed building websites.
+     <br>
+     <br>
+          My name is Nick and I currently live in the Orlando area. 
+          I am a recent graduate from a Web Development coding bootcamp 
+          at UCF, and I am currently pursuing a career in Web Development. 
+          I am proficient in HTML, CSS, Javascript, Node, Express, and React 
+          (full list of skills below). I am eager to continue to learn and 
+          grow in this industry.
+       </p>
     </div>
+    <!-- <div class="about-me-footer"><p></p></div> -->
   </section>
 
   <section id="skills" class="skills">
@@ -66,19 +84,24 @@
 
   <section id="work" class="work">
     <h3 class="title">My Work</h3>
+    <p>Below are a few projects that I am the most proud of creating. Visit my <a href="#">Github</a> to view the complete list.</p>
     <hr>
 
     <ul class="grid">
+
       <li class="large" style="background-image: url(assets/images/mymoviereview.png);">
-        <p>
-          <h3>My Critic Review
-            <a href="#"><i class="fas fa-blog float-right"></i></a>
-            <a href="#"><i class="fab fa-github float-right"></i></a>
-            <a href="#"><i class="fas fa-external-link-alt float-right"></i></a>
+        <p class="project-description">
+          <h3><a href="#">My Critic Review</a>
+            <a title="Blog" href="#"><i class="fas fa-blog float-right"></i></a>
+            <a title="Github" href="#"><i class="fab fa-github float-right"></i></a>
+            <a title="My Critic Review" href="#"><i class="fas fa-external-link-alt float-right"></i></a>
           </h3>
           <br>
-          <div class="project-description">
-            As a person who loves to go out to the movies but doesn't want to waste the money
+          <div class="project-description-body">
+            My Critic Review is a website for people who want to find movie critics that they can trust.
+            Rate and review movies, follow your top matched critics, and get a percentage of approval for all movies
+            based on your top matches.
+            <!-- As a person who loves to go out to the movies but doesn't want to waste the money
             or time on something not completely satisfactory, I heavily rely on critic reviews.
             Not all critic reviews are trustworthy however, and it is sometimes difficult to find a
             somebody with the same movie interests as yourself. Imagine a website that matched you
@@ -86,27 +109,26 @@
             My Critic Review. I created an alogorithm that matches a user up with other users who have
             rated movies similarly. Follow your top matched critics, get a percentage of approval for all movies
             based on your top matches, and rate/review movies yourself for others to read. It's like Facebook
-            for movie critics. Primary languages used were JavaScript, Node, React, and MongoDB.
+            for movie critics. Primary languages used were JavaScript, Node, React, and MongoDB. -->
             <br>
             <br>
             <h4>Click the Blog or Github icon to learn more about this project.</h4>
           </div>
         </p>
       </li>
+    </a>
       <li class="large" style="background-image: url(assets/images/IDC.png);">
-        <p>
-          <h3>
-            Industrial Divers Corp. Website
+        <p class="project-description">
+          <h3><a href="#">
+            Industrial Divers Corp. Website</a>
             <a href="#"><i class="fas fa-blog float-right"></i></a>
             <a href="#"><i class="fab fa-github float-right"></i></a>
             <a href="#"><i class="fas fa-external-link-alt float-right"></i></a>
           </h3>
           <br>
-          <div class="project-description">
+          <div class="project-description-body">
             I was recently given the opportunity to update and modernize a company website of the Fort Lauderdale based
-            underwater construction company Industiral Divers Corporation. After designing a page-by-page prototype using
-            AdobeXD, I wrote the website using CSS animations and the CSS grid system. View the initial mockups,
-            before and after screenshots, and case study by visiting my blog.
+            underwater construction company Industrial Divers Corporation.
             <br>
             <br>
             <h4>Click the Blog or Github icon to learn more about this project.</h4>
@@ -114,21 +136,20 @@
         </p>
       </li>
       <li class="small" style="background-image: url(assets/images/jukebox.png);">
-        <p>
-          <h3>Jukebox Hangman
+        <p class="project-description">
+          <h3><a href="#">Jukebox Hangman</a>
             <a href="#"><i class="fas fa-blog float-right"></i></a>
             <a href="#"><i class="fab fa-github float-right"></i></a>
             <a href="#"><i class="fas fa-external-link-alt float-right"></i></a>
           </h3>
           <br>
-          <div class="project-description">
-            Imagine being given the task of creating a hangman game with only a basic understanding of JavaScript?
-            The language finally clicked by the time a finished this project. However, I still didn't understand 
-            objects, so this is all written without a single one. It's pretty scary looking under the hood, but I decided to
-            post this to prove that there are many ways to program something, even it if isn't the most efficient. 
-            <!-- It was a Tuesday evening when class started, and our profressor gave us an introduction to JavaScript.
-            After class was over, we had learned about conditionals, for loops, and functions. Let's say I was 
-            lost, for this material hadn't clicked in my head yet.  -->
+          <div class="project-description-body">
+            <!-- Imagine being given the task of creating a hangman game with a very fresh, basic understanding of JavaScript? -->
+            This is not your ordinary jukebox. In order to listen to a song, you must first guess it's song title!
+            <!-- This was the first JavaScript homework assigned within my bootcamp course, and the language still hadn't entirely clicked
+            with me. I Decided to create something a bit out of the ordinary with the goal to have a better grasp of the programming language
+            by the time the game was completed. I present to you my very first game made entirely of JavaScript variables, conditionals, and loops, for 
+            I hadn't yet learned about objects. -->
             <br>
             <br>
             <h4>Click the Blog or Github icon to learn more about this project.</h4>
@@ -136,18 +157,19 @@
         </p>
       </li>
       <li class="small" style="background-image: url(assets/images/triviagame.png);">
-        <p>
-          <h3>What's My Line?
+        <p class="project-description">
+          <h3><a href="#">What's My Line?</a>
             <a href="#"><i class="fas fa-blog float-right"></i></a>
             <a href="#"><i class="fab fa-github float-right"></i></a>
             <a href="#"><i class="fas fa-external-link-alt float-right"></i></a>
           </h3>
           <br>
-          <div class="project-description">
-            As a person who loves to go out to the movies but doesn't want to waste the money
-            or time on something not completely satisfactory, I heavily rely on critic reviews.
-            Not all critic reviews are trustworthy however, and it is sometimes difficult to find a
-            somebody with the same movie interests as yourself.
+          <div class="project-description-body">
+            Guess the famous line from various movie clips!
+          <!-- Our assignment was to create a trivia game with a use of timers. I knew from the start that I 
+          wanted to make a movie-themed game based on famous movie quotes. This project
+          has a dynamic front-end, a video that automatically plays and pauses right before the famous movie quote, and
+          an overall score displayed at the finale. -->
             <br>
             <br>
             <h4>Click the Blog or Github icon to learn more about this project.</h4>
@@ -155,18 +177,21 @@
         </p>
       </li>
       <li class="small" style="background-image: url(assets/images/memorygame.png);">
-        <p>
-          <h3>Sick Puppies Memory Game
+        <p class="project-description">
+          <h3><a href="#">Sick Puppies Memory Game</a>
             <a href="#"><i class="fas fa-blog float-right"></i></a>
             <a href="#"><i class="fab fa-github float-right"></i></a>
             <a href="#"><i class="fas fa-external-link-alt float-right"></i></a>
           </h3>
           <br>
-          <div class="project-description">
-            As a person who loves to go out to the movies but doesn't want to waste the money
-            or time on something not completely satisfactory, I heavily rely on critic reviews.
-            Not all critic reviews are trustworthy however, and it is sometimes difficult to find a
-            somebody with the same movie interests as yourself.
+          <div class="project-description-body">
+            Memory scramble game with a bunch of sick puppies that need your help!
+            <!-- Learning React was initially a great challenge. Imagine taking everything 
+            learned about HTML, CSS, and JavaScript, and then turning it all upsidedown? 
+            That's what React felt like before gaining a better understanding of the 
+            language. However, now it has become one of my favorite front-end languages 
+            to use for building dynamic websites. Sick Puppies Memory Game was 
+            created entirely using React. -->
             <br>
             <br>
             <h4>Click the Blog or Github icon to learn more about this project.</h4>
