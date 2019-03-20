@@ -23,7 +23,7 @@ $(document).ready(function(){
     } // End if
   });
 
-var str1 = "<h1>Hello! My name is Nicholas Alex</h1>";
+var str1 = "<h1>Hello! My name is Nick</h1>";
 var str2 = "<p>I am a Full Stack Web Developer!</p>";
 var str3 = "<button>Enter</button>";
 var newArr = str1.split("");
@@ -41,6 +41,8 @@ pageStart();
 function pageStart(){
   var website= sessionStorage.getItem("visited");
   var testMode = "yes";
+  // website == null;
+  // testMode == "yes";
   if(testMode == "yes"){
     loading = setInterval(loadingPage, 400);
   }
