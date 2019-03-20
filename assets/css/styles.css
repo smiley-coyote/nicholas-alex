@@ -89,6 +89,10 @@ section p {
 	border: solid 1px black;
 }
 
+#website-content {
+	display: none;
+}
+
 /*Header Styles*/
 
 header {
@@ -136,6 +140,138 @@ header nav li {
 		margin-bottom: 15px;
 	}
 }
+
+
+/* Intro Page */
+
+.intro-page {
+	min-height: 100vh;
+	background-color: rgb(48, 48, 48);
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/* intro page start */
+
+
+#content-here2 {
+	color: white;
+	display: none;
+	text-align: center;
+	position: absolute;
+	height: 500px;
+	width: 800px;
+	left: 50%;
+	top: 20%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	animation: getIntoPlace 2s ease-in-out .5s forwards paused;
+	z-index: 9999999;
+}
+
+
+#content-here2 h1{
+	font-size: 2em;
+	text-align: center;
+}
+#content-here2 p {
+	padding: 10px;
+	font-size: 25px;
+}
+
+#enter-button {
+	position: relative;
+	font-size: 20px;
+	width: 100px;
+	height: 60px;
+	margin: 25px auto;
+	background-color: transparent;
+	animation: textColorChange 10s linear infinite;
+}
+
+
+
+@keyframes textColorChange{
+	0%{
+		color: white;
+	}
+	25%{
+		color: rgb(121, 255, 121);
+	}
+	50%{
+		color: rgb(255, 255, 91);
+	}
+	75%{
+		color: rgb(68, 253, 253)
+	}
+	100%{
+		color: white;
+	}
+}
+
+#enter-button:hover{
+	cursor: pointer;
+	animation: grow .1s linear forwards;
+	color: white;
+}
+
+#run-btn {
+	display: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	width: 100px;
+	height: 55px; 
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	flex-basis: 100%;
+}
+
+
+
+#run-btn button:hover{
+	cursor: pointer;
+	
+}
+
+#run-btn:hover {
+	animation: grow .1s linear forwards;
+}
+
+@keyframes grow {
+	100%{
+		transform: scale(1.1);
+	}
+}
+
+#content-here {
+	font-size: 25px;
+	height: 600px;
+	width: 480px;
+	margin: 15% auto;
+	flex-basis: 100%;
+}
+
+
+#content-here span {
+	color: rgb(82, 82, 224);
+}
+
+#content {
+	width: 1290px;
+	height: 800px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	display: none;
+}
+/* intro page end */
+
 
 /*About Me Styles*/
 
@@ -247,7 +383,7 @@ header nav li {
 /*work Section*/
 
 .work a {
-	color: rgb(71, 71, 71);
+	color: rgb(54, 54, 54);
 }
 
 .work i {
@@ -258,7 +394,7 @@ header nav li {
 .work .grid li {
 	height: 350px;
 	padding: 20px;
-	margin: 50px 0 110px 0;
+	margin: 50px 0 120px 0;
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
@@ -291,10 +427,25 @@ header nav li {
 	}
 }
 
+@media (max-width: 900px){
+	.work .grid h3{
+		font-size: 19px;
+	}
+	.work .grid i{
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 800px) {
 	.work .grid li.small,
 	.work .grid li.large {
 		flex-basis: 100%;
+	}
+	.work .grid h3{
+		font-size: 18px;
+	}
+	.work .grid i{
+		font-size: 20px;
 	}
 }
 
