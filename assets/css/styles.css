@@ -141,6 +141,24 @@ header nav li {
 	}
 }
 
+@media (max-width: 500px) {
+nav {
+	font-size: 14px;
+}
+}
+
+@media (max-width: 380px) {
+	nav {
+		font-size: 13px;
+	}
+	}
+
+	@media (max-width: 320px) {
+		nav {
+			font-size: 9px;
+		}
+		}
+
 
 /* Intro Page */
 
@@ -285,7 +303,7 @@ header nav li {
 }
 @media (max-width: 500px){
 	#content-here {
-		font-size: 18px;
+		font-size: 16px;
 		width: 100%;
 	}
 	#content-here2 h1{
@@ -391,10 +409,6 @@ header nav li {
 
 	}
 
-	.about-me {
-		min-height: 600px;
-	}
-
 	.about-me .about-me-content-area p {
 		font-size: 12px;
 		margin-top: 50px;
@@ -409,7 +423,22 @@ header nav li {
 
 @media (max-width: 520px){
 	.about-me {
-		height: 120vh;
+		height: 140vh;
+	}
+	
+}
+
+
+
+@media (max-width: 340px){
+	.about-me {
+		height: 180vh;
+	}
+}
+
+@media (max-width: 320px){
+	.about-me {
+		height: 180vh;
 	}
 }
 
