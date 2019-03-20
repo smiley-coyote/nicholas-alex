@@ -394,12 +394,19 @@ header nav li {
 
 	.about-me .about-me-content-area p {
 		font-size: 12px;
+		margin-top: 50px;
 	}
 
 
 	.about-me .about-me-content-area li {
 		height: 300px;
 		width: 300px;
+	}
+}
+
+@media (max-width: 400px){
+	.about-me {
+		height: 120vh;
 	}
 }
 

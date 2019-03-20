@@ -43,7 +43,7 @@ function pageStart(){
   var testMode = "yes";
   // website == null;
   // testMode == "yes";
-  if(testMode == "yes"){
+  if(website == null){
     loading = setInterval(loadingPage, 400);
   }
   else{
