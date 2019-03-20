@@ -423,7 +423,7 @@ nav {
 
 @media (max-width: 520px){
 	.about-me {
-		height: 140vh;
+		height: 1000px;
 	}
 	
 }
@@ -508,6 +508,12 @@ nav {
 	}
 	.work .grid i{
 		font-size: 20px;
+	}
+}
+
+@media (max-width: 400px){
+	.work .grid li.large{
+		margin-bottom: 150px;
 	}
 }
 
