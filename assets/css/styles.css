@@ -188,36 +188,16 @@ header nav li {
 	position: relative;
 	font-size: 20px;
 	width: 100px;
-	height: 60px;
+	height: 50px;
 	margin: 25px auto;
-	background-color: transparent;
-	animation: textColorChange 10s linear infinite;
+	background-color: rgb(226, 225, 225);
+	color: black;
 }
 
-
-
-@keyframes textColorChange{
-	0%{
-		color: white;
-	}
-	25%{
-		color: rgb(121, 255, 121);
-	}
-	50%{
-		color: rgb(255, 255, 91);
-	}
-	75%{
-		color: rgb(68, 253, 253)
-	}
-	100%{
-		color: white;
-	}
-}
 
 #enter-button:hover{
 	cursor: pointer;
 	animation: grow .1s linear forwards;
-	color: white;
 }
 
 #run-btn {
@@ -229,8 +209,30 @@ header nav li {
 	height: 85px; 
 	border-radius: 5px;
 	text-align: center;
-	color: black;
+	animation: textColorChange 5s linear infinite;
+	background-color: transparent;
 	align-self: center;
+}
+
+@keyframes textColorChange{
+	0%{
+		color: rgb(255, 111, 243);
+	}
+	20%{
+		color: rgb(255, 106, 138);
+	}
+	40%{
+		color: rgb(252, 142, 79);
+	}
+	60%{
+		color: rgb(71, 252, 86);
+	}
+	80%{
+		color: rgb(96, 160, 255);
+	}
+	100%{
+		color: rgb(255, 111, 243);
+	}
 }
 
 
@@ -238,6 +240,7 @@ header nav li {
 #run-btn:hover{
 	cursor: pointer;
 	animation: grow .1s linear forwards;
+	color: white;
 }
 
 
