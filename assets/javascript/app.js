@@ -1,3 +1,6 @@
+var runTimer;
+
+
 $(document).ready(function(){
 
   // Add smooth scrolling to all links
@@ -36,7 +39,11 @@ var loadingTimer =6;
 var flashingOn = false;
 var loading;
 
+
 document.onload = pageStart();
+
+
+
 
 function pageStart(){
   var website= sessionStorage.getItem("visited");
@@ -44,6 +51,7 @@ function pageStart(){
   // website == null;
   // testMode == "yes";
   if(website == null){
+    runTimer = setTimeout(runButton, 15000);
     loading = setInterval(loadingPage, 400);
   }
   else{
@@ -133,12 +141,14 @@ function myFunction2() {
 });
 
 function runButton(){
+  runTimer = setInterval(enterSite, 10000);
   document.getElementById("run-btn").style.display = "none";
   document.getElementById("content-here").style.display = "none";
   document.getElementById("content-here2").style.display = "block";
 }
 
 function enterSite() {
+  clearTimeout(runTimer);
     document.getElementById("intro").style.display = "none";
     pageStart();
   

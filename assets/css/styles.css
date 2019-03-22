@@ -581,9 +581,13 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: #607d8b;
+	background-color: rgb(48, 48, 48);
 	color: #fff;
 	padding: 20px 0;
+}
+
+footer i{
+	color: #8c9eff;
 }
 
 footer a {
