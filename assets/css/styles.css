@@ -227,11 +227,34 @@ nav {
 	height: 85px; 
 	border-radius: 5px;
 	text-align: center;
+	-webkit-animation: textColorChange 5s linear infinite;
 	animation: textColorChange 5s linear infinite;
 	background-color: transparent;
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
+@-webkit-keyframes textColorChange{
+	0%{
+		color: rgb(255, 111, 243);
+	}
+	20%{
+		color: rgb(255, 106, 138);
+	}
+	40%{
+		color: rgb(252, 142, 79);
+	}
+	60%{
+		color: rgb(71, 252, 86);
+	}
+	80%{
+		color: rgb(96, 160, 255);
+	}
+	100%{
+		color: rgb(255, 111, 243);
+	}
+}
 @keyframes textColorChange{
 	0%{
 		color: rgb(255, 111, 243);

@@ -35,7 +35,7 @@ var isElement = false;
 var typing;
 var completedHeading = false;
 var completedParagraph = false;
-var loadingTimer =6;
+var loadingTimer =5;
 var flashingOn = false;
 var loading;
 
