@@ -50,7 +50,7 @@ function pageStart(){
   var testMode = "yes";
   // website == null;
   // testMode == "yes";
-  if(website == null){
+  if(testMode == "no"){
     runTimer = setTimeout(runButton, 15000);
     loading = setInterval(loadingPage, 400);
   }
