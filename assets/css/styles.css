@@ -90,7 +90,7 @@ section p {
 }
 
 #website-content {
-	display: none;
+	display: block;
 }
 
 /*Header Styles*/
@@ -160,15 +160,16 @@ nav {
 		}
 
 
-/* Intro Page */
+/* Intro Page */ 
+/* disabled */
 
 
-.intro-page {
+/* .intro-page {
 	min-height: 100vh;
 	background-color: rgb(48, 48, 48);
 	color: white;
 	position: relative;
-	display: flex;
+	display: none;
 	justify-content: center;
 	flex-direction: column;
 	justify-content: space-between;
@@ -176,7 +177,7 @@ nav {
 
 /* intro page start */
 
-
+/* 
 #content-here2 {
 	color: white;
 	display: none;
@@ -336,7 +337,7 @@ nav {
 		font-size: 20px;
 	}
 
-}
+} */
 /* intro page end */
 
 
