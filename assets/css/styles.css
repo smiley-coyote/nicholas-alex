@@ -477,6 +477,10 @@ nav {
 	letter-spacing: 4px;
 }
 
+.work i:hover {
+	opacity: .5;
+}
+
 .work .grid li {
 	height: 350px;
 	padding: 20px;
