@@ -596,9 +596,11 @@ nav {
 }
 
 @media (max-width: 400px){
-	.work .grid li.large{
-		margin-bottom: 150px;
+	.work .grid li.small{
+		margin-bottom: 135px;
 	}
+
+
 }
 
 /* Skills Section */
