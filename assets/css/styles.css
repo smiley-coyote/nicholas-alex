@@ -477,6 +477,62 @@ nav {
 	letter-spacing: 4px;
 }
 
+.work .html-icon {
+	background-color: rgb(192, 190, 100);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .css-icon {
+	background-color: rgb(100, 174, 192);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .javascript-icon {
+	background-color: rgb(192, 100, 100);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .react-icon {
+	background-color: rgb(114, 100, 192);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .mongo-icon {
+	background-color: rgb(100, 192, 108);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .node-icon {
+	background-color: rgb(192, 155, 100);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .apis-icon {
+	background-color: rgb(192, 100, 157);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.work .express-icon {
+	background-color: rgb(100, 192, 164);
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
 .work i:hover {
 	opacity: .5;
 }
